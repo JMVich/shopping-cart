@@ -1,0 +1,268 @@
+.bg-body-tertiary {
+    background-color: rgb(189, 189, 189) !important;
+    margin-bottom: 3%;
+}
+
+body {
+    background-color: rgb(213, 213, 213);
+}
+
+.table>:not(caption)>*>* {
+    background-color: rgb(236, 236, 236);
+    padding: 0.9rem 0.5rem;
+}
+
+.container {
+    background-color: rgb(236, 236, 236) !important;
+    border-radius: 10px;
+    width: 70%;
+    padding: 0.1%;
+    margin-bottom: 3%;
+}
+
+.container2 {
+    margin: 2%;
+}
+
+.centerP {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fontP {
+    font-size: larger;
+}
+
+hr {
+    width: 100%;
+}
+
+
+.bordeB {
+    border: black solid 1px;
+    border-radius: 7px;
+}
+
+.btn-comprar {
+    text-align: center;
+}
+
+.btn-comprar button {
+    width: 30%;
+}
+
+.agrandarB {
+    font-size: x-large;
+    font-weight: 700;
+    border: none;
+    
+}
+
+.alinear {
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+}
+
+.navbar-brand {
+    font-size: x-large;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.navbar-brand:hover {
+    animation: fade .2s ease-in-out forwards;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    font-size: larger;
+}
+
+.navbar-nav .nav-link:hover {
+    animation: fade .2s ease-in-out forwards;
+}
+
+.css-11pbyhm-MuiSvgIcon-root {
+    font-size: 2rem !important;
+}
+
+
+.css-11pbyhm-MuiSvgIcon-root:hover {
+    animation: fade .2s ease-in-out forwards;
+}
+
+
+/* Estilos para la tarjeta */
+.tarjeta {
+    display: flex;
+    border: 1px #a3a3a338;
+    border-radius: 13px;
+    padding: 26px;
+    align-items: center;
+    background-color: white;
+    margin: 3% 2.5%;
+}
+
+.tarjeta-imagen {
+    width: 14%;
+    object-fit: contain;
+    margin-right: 36px;
+    border-radius: 20px;
+}
+
+.tarjeta-contenido {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+
+}
+
+.tarjeta-titulo {
+    margin: 0;
+}
+
+.tarjeta-descripcion {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.tarjeta-precio {
+    margin: 0;
+    font-weight: bold;
+}
+
+.boton-agregar {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton-agregar:hover {
+    background-color: #45a049;
+}
+
+a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boton-quitar {
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton-quitar:hover {
+    background-color: #a04545;
+}
+
+.carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.arregloBtn {
+    background: content-box;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+html,
+body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+img{
+    transition: transform .9s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .tarjeta-imagen {
+        width: 28%;
+        object-fit: contain;
+        margin-right: 21px;
+        border-radius: 19px;
+        
+    }
+
+    .tarjeta {
+        margin: 4% 2.5%;
+    }
+
+    .container {
+        background-color: rgb(236, 236, 236) !important;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .btn-comprar button {
+        width: 100%;
+    }
+
+    .fontP {
+        font-size: large;
+    }
+
+    .h3, h3 {
+        font-size: calc(1rem + .6vw);
+    }
+
+    .boton-agregar {
+        width: 100%;
+    }
+
+}
+
+
+
+
